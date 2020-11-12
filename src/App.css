@@ -3,13 +3,12 @@
 }
 
 img {
-  width: 55%;
+  width: 95%;
   height: 100%;
 }
 
 .container {
   display: flex;
-  background-color: lightblue;
 }
 
 .item {
@@ -17,3 +16,8 @@ img {
   padding: 25px;
 }
 
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
