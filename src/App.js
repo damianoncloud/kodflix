@@ -1,31 +1,18 @@
-import React from 'react';
-import Movie from './Movie.js';
-import bloodDiamond from './images/blood-diamonds-cover.jpg';
-import chocolate from './images/chocolate-cover.jpg';
-import parasite from './images/parasite-cover.jpg';
-import titanic from './images/titanic-cover.jpg';
-import enemyofstate from './images/enemy-state-cover.jpg';
-import matrix from './images/matrix-cover.jpg';
+import React, { Component } from 'react';
+import Gallery from './Gallery.js';
+// import { render } from 'react-dom';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to Kodflix!</h1>
-        <br /><br /><br />
-        
-        <div className="container">
-          <Movie title="Blood Diamonds" image={bloodDiamond} />  
-          <Movie title="Chocolate" image={chocolate} />  
-          <Movie title="Parasite" image={parasite} />  
-        </div>
-        <div className="container">
-          <Movie title="Titanic" image={titanic} />  
-          <Movie title="Enemy of State" image={enemyofstate} />  
-          <Movie title="Matrix" image={matrix} />  
-        </div>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>Welcome to Kodflix!</h1>
+          <br /><br /><br />
+          <Gallery />
+      </div>
+    );
+  }
 }
 
 export default App;
