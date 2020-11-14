@@ -14,21 +14,26 @@ export default function Gallery() {
       <div>
         <h1>Welcome to Kodflix</h1>
         <div className="container">
-          <Movie title="Blood Diamonds" image={bloodDiamond} />  
-          <Movie title="Chocolate" image={chocolate} />  
-          <Movie title="A Star is Born" image={astarisborn} />  
-          <Movie title="Parasite" image={parasite} />  
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='parasite' title="Parasite" image={parasite} />  
         </div>
         <div className="container">
-          <Movie title="No time to Die" image={notime} />  
-          <Movie title="The Theory of Everything" image={theoryofeverything} />  
-          <Movie title="Matrix" image={matrix} />   
+          <Movie id='noTimeToDie' title="No time to Die" image={notime} />  
+          <Movie id='theTheoryOfEverything' title="The Theory of Everything" image={theoryofeverything} />  
+          <Movie id='matrix' title="Matrix" image={matrix} />   
         </div>
         <div className="container">
-          <Movie title="Blood Diamonds" image={bloodDiamond} />  
-          <Movie title="Chocolate" image={chocolate} />  
-          <Movie title="A Star is Born" image={astarisborn} />  
-          <Movie title="Parasite" image={parasite} />  
+        <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='parasite' title="Parasite" image={parasite} />  
+        </div>
+        <div className="container">
+          <Movie id='noTimeToDie' title="No time to Die" image={notime} />  
+          <Movie id='theTheoryOfEverything' title="The Theory of Everything" image={theoryofeverything} />  
+          <Movie id='matrix' title="Matrix" image={matrix} />   
         </div>
       </div>
     )

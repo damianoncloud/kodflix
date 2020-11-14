@@ -6,13 +6,6 @@
   display: flex;
 }
 
-/* img {
-  width: 350px;
-  height: 550px;
-} */
-
-/* Aggiunto per prova */
-
 .item img {
   width: 100%;
 }
@@ -43,22 +36,6 @@
 .overlay h1 {
   color: white;
 }
-
-
-/* .item h1 {
-  opacity: 0.1;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 99%;
-}
-
-.item h1:hover {
-  background-color: black;
-  opacity: 1;
-  color: white;
-  padding: 35px;
-} */
 
 @media (max-width: 600px) {
   .container {
