@@ -17,23 +17,48 @@ export default function Gallery() {
           <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
           <Movie id='chocolate' title="Chocolate" image={chocolate} />  
           <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
-          <Movie id='parasite' title="Parasite" image={parasite} />  
-        </div>
-        <div className="container">
           <Movie id='noTimeToDie' title="No time to Die" image={notime} />  
           <Movie id='theTheoryOfEverything' title="The Theory of Everything" image={theoryofeverything} />  
-          <Movie id='matrix' title="Matrix" image={matrix} />   
-        </div>
-        <div className="container">
-        <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='matrix' title="Matrix" image={matrix} /> 
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
           <Movie id='chocolate' title="Chocolate" image={chocolate} />  
           <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
-          <Movie id='parasite' title="Parasite" image={parasite} />  
-        </div>
-        <div className="container">
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
           <Movie id='noTimeToDie' title="No time to Die" image={notime} />  
           <Movie id='theTheoryOfEverything' title="The Theory of Everything" image={theoryofeverything} />  
-          <Movie id='matrix' title="Matrix" image={matrix} />   
+          <Movie id='matrix' title="Matrix" image={matrix} /> 
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='noTimeToDie' title="No time to Die" image={notime} />  
+          <Movie id='theTheoryOfEverything' title="The Theory of Everything" image={theoryofeverything} />  
+          <Movie id='matrix' title="Matrix" image={matrix} /> 
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='noTimeToDie' title="No time to Die" image={notime} />  
+          <Movie id='theTheoryOfEverything' title="The Theory of Everything" image={theoryofeverything} />  
+          <Movie id='matrix' title="Matrix" image={matrix} /> 
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
+          <Movie id='noTimeToDie' title="No time to Die" image={notime} />  
+          <Movie id='theTheoryOfEverything' title="The Theory of Everything" image={theoryofeverything} />  
+          <Movie id='matrix' title="Matrix" image={matrix} /> 
+          <Movie id='bloodDiamonds' title="Blood Diamonds" image={bloodDiamond} />  
+          <Movie id='chocolate' title="Chocolate" image={chocolate} />  
+          <Movie id='starIsBorn' title="A Star is Born" image={astarisborn} />  
         </div>
       </div>
     )

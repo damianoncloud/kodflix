@@ -3,7 +3,11 @@
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
 }
 
 .item img {
@@ -11,10 +15,11 @@
 }
 
 .item {
-  flex: 1;
-  padding: 30px;
-  /* border: 1px solid black; */
+  /* flex: 1;
+  flex-basis: 100px; */
+  padding: 10px;
   position: relative;
+  /* border: 1px solid black; */
   overflow: hidden;
 }
 
@@ -24,8 +29,8 @@
   bottom: -100px;
   left: 0;
   width: 100%;
-  background-color: black;
   opacity: 0.6;
+  background-color: black;
 }
 
 .item:hover .overlay {
@@ -37,8 +42,8 @@
   color: white;
 }
 
-@media (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
   }
-}
+} */
