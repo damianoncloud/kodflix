@@ -1,0 +1,17 @@
+.Details .wrapper{
+    background-color: lightgray;
+    display: flex;
+}
+
+.Details .wrapper .child, 
+.Details .wrapper .image {
+    padding: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Details .wrapper{
+        background-color: lightgray;
+        flex-direction: column;
+    }
+}
